@@ -33,3 +33,7 @@
 .scar-button:visited {
   color: black;
 }
+
+.project-listing-container {
+ margin: 25px 0px 0px 0px; 
+}
