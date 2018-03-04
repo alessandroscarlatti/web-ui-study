@@ -4,6 +4,12 @@ html, body {
   margin: 0px;
   padding: 0px;
   
+  /**
+   * To get the full-page app experience, I needed to 
+   * use a border on the html and body elements.
+   * Using an invisible border so that we don't see anything there.
+   * Using border-box box-sizing so that we don't expand too large.
+   */
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0);
 }
