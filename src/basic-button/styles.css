@@ -1,1 +1,35 @@
+.container {
+  margin: 10px;
+}
 
+.scar-button {
+  margin: 0px 5px 0px 5px;
+  
+  background-color: #e3e3e3;
+  padding: 0px 10px 0px 10px;
+  
+  /* box-shadow: 0px 0px 1px 1px #d3d3d3; */
+  border: 1px solid #d3d3d3;
+  border-radius: 3px;
+  
+  transition: box-shadow .2s;
+  transition: background-color .2s;
+}
+
+.scar-button:hover {
+  background-color: #d3d3d3;
+  box-shadow: 0px 0px 5px 1px #e3e3e3 inset;
+  cursor: pointer;
+}
+
+.scar-button:active {
+  background-color: #e7e7e7;
+}
+
+.scar-button a {
+  text-decoration: none;
+}
+
+.scar-button a:visited {
+  color: black;
+}
