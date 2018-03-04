@@ -1,5 +1,13 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
 .container {
   margin: 10px;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(45deg, #7db9e8 15%,#7db9e8 15%,#2b88d9 74%);
 }
 
 .scar-button {
