@@ -30,6 +30,6 @@
   text-decoration: none;
 }
 
-.scar-button a:visited {
+.scar-button:visited {
   color: black;
 }
